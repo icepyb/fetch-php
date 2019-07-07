@@ -1,18 +1,18 @@
 # php version of goproxy
-can be made a deploy to **Heroku**
+which CAN be deployed to **Heroku**
 
-## create project on Heroku
+1. create project on Heroku
 Just do it with ur browser , open ` heroku.com ` and create a NEW project.  
 
-## add heroku buildpack
+2. add heroku buildpack
 Go to ur heroku project - ` setting ` , add a buildpack named ` heroku/php ` .  
 
-## link this github repo for deploy
+3. link this github repo for deploy
 Fork this repo to ur Github Account.  
 Go to heroku project - ` deploy ` , choose ` link to Github ` and search for this repo .  
 Scroll to the lower part of page to press ` deploy ` button .  
 
-## your server ready
+4. your server ready
 Wait for the deploy to be completed , and you get a php server with domain name.  
 You can get ur domain name by clicking ` Open App ` button or find it in [ heroku project - ` setting ` ] .  
 
